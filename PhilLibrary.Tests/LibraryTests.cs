@@ -54,6 +54,7 @@ namespace PhilLibrary.Tests
       Assert.Equal(
         new[] { "Davinci Code", "Angels and Demons", "The Last Symbol" },
         backpack);
+      Assert.Equal(3, backpack.Count);
     }//end of Add_three_things_to_backpack
 
   }
